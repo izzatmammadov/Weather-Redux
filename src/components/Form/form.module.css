@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background: #fff;
+    width: 90%;
+    margin: 60px auto 0px;
+    height: 46px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
