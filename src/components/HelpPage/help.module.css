@@ -1,11 +1,8 @@
 .main {
   background-color: #131313;
   color: #fff;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 20px;
 }
 
 .caption {
@@ -16,8 +13,7 @@
   border-radius: 20px;
   font-weight: 300;
   text-align: justify;
-  padding: 20px;
-  margin-top: 60px;
+  padding: 10px 20px;
 }
 
 .caption h1 {
@@ -28,9 +24,11 @@
   font-style: italic;
 }
 
+.caption p {
+  line-height: 0.7cm;
+}
+
 .navbar {
   width: 100%;
   margin-bottom: 20px;
-  position: absolute;
-  top: 0px;
 }
