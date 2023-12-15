@@ -1,15 +1,26 @@
 import React from "react";
 import styles from "./about.module.css";
 import { Navbar } from "../Navbar/Navbar";
+import { useMode } from "../ThemeGlobal/ModeContext";
 
 export const AboutPage = () => {
+  const { isLightMode } = useMode();
 
   return (
-    <section className={styles.main}>
+    <section
+      className={styles.main}
+      style={{
+        background: isLightMode ? "#bebebe" : "",
+        color: isLightMode ? "#000" : "",
+      }}
+    >
       <div className={styles.navbar}>
-      <Navbar/>
+        <Navbar />
       </div>
-      <div className={styles.caption}>
+      <div
+        className={styles.caption}
+        style={{ background: isLightMode ? "rgba(255, 255, 255, 0.250)" : "" }}
+      >
         <h1>About Us</h1>
         <p>
           In the contemporary digital landscape, weather apps have become

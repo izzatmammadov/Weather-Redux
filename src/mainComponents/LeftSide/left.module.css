@@ -1,5 +1,11 @@
-.main {
+.main_dark {
     background: #161616;
+    width: 32%;
+    min-height: 100vh;
+}
+
+.main_light {
+    background: #bebebe;
     width: 32%;
     min-height: 100vh;
 }

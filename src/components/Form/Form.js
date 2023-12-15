@@ -8,7 +8,7 @@ export const Form = () => {
   return (
     <form className={styles.form}>
       <Input
-      type="text"
+        type="text"
         placeholder="Enter City Name"
         className={styles.input}
         startAdornment={
